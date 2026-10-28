@@ -1,9 +1,9 @@
 let partidas_jugadas = 0;
 const maquina = "Papel";
+console.log("Bienvenido al juego virtual: Piedra, Papel o Tijera");
+console.log("Recuerda que solo tienes 3 turnos para jugar");
 
 do {
-    console.log("Bienvenido al juego virtual: Piedra, Papel o Tijera");
-    console.log("Recuerda que solo tienes 3 turnos para jugar");
     const jugador = prompt("Escoge entre piedra, papel o tijera");
 
     if (jugador == "Piedra" || jugador == "piedra") {
@@ -23,3 +23,4 @@ do {
         console.log("Introduce una respuesta valida");
     }
 } while (partidas_jugadas < 3);
+console.log("Gracias por jugar");
